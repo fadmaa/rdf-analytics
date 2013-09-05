@@ -1,0 +1,95 @@
+<http://example.org/person/richard-cyganiak> <http://example.org/p/name> "Richard Cyganiak" .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/gender> "male" .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/josef-petrak> .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/maciej-dabrowski> . 
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/benjamin-heitmann>.
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/anna-dabrowska> .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/fadi-maali> .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/knows> <http://example.org/person/jindrich-mynarz> .
+<http://example.org/person/richard-cyganiak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/richard-cyganiak> <http://example.org/p/member> <http://example.org/org/deri> .
+
+<http://example.org/person/anna-dabrowska> <http://example.org/p/name> "Anna Dabrowska" .
+<http://example.org/person/anna-dabrowska> <http://example.org/p/gender> "female" .
+<http://example.org/person/anna-dabrowska> <http://example.org/p/knows> <http://example.org/person/maciej-dabrowski> .
+<http://example.org/person/anna-dabrowska> <http://example.org/p/knows> <http://example.org/person/lukasz-porwol> .
+<http://example.org/person/anna-dabrowska> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/anna-dabrowska> <http://example.org/p/member> <http://example.org/org/deri> .
+  
+<http://example.org/person/maciej-dabrowski> <http://example.org/p/name> "Maciej Dabrowski" .
+<http://example.org/person/maciej-dabrowski> <http://example.org/p/gender> "male" .
+<http://example.org/person/maciej-dabrowski> <http://example.org/p/knows> <http://example.org/person/richard-cyganiak> .
+<http://example.org/person/maciej-dabrowski> <http://example.org/p/knows> <http://example.org/person/fadi-maali> .
+<http://example.org/person/maciej-dabrowski> <http://example.org/p/knows> <http://example.org/person/anna-dabrowska> .
+<http://example.org/person/maciej-dabrowski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/maciej-dabrowski>  <http://example.org/p/member> <http://example.org/org/deri> .
+  
+<http://example.org/person/benjamin-heitmann> <http://example.org/p/name> "Benjamin Heitmann" .
+<http://example.org/person/benjamin-heitmann> <http://example.org/p/gender> "male" .
+<http://example.org/person/benjamin-heitmann> <http://example.org/p/knows> <http://example.org/person/fadi-maali> .
+<http://example.org/person/benjamin-heitmann> <http://example.org/p/knows> <http://example.org/person/maciej-dabrowski> .
+<http://example.org/person/benjamin-heitmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/benjamin-heitmann>  <http://example.org/p/member> <http://example.org/org/deri> .
+  
+<http://example.org/person/jan-kucera> <http://example.org/p/name> "Jan Kucera" .
+<http://example.org/person/jan-kucera> <http://example.org/p/gender> "male" .
+<http://example.org/person/jan-kucera> <http://example.org/p/knows> <http://example.org/person/jindrich-mynarz> .
+<http://example.org/person/jan-kucera> <http://example.org/p/knows> <http://example.org/person/ana-osman> .
+<http://example.org/person/jan-kucera> <http://example.org/p/knows> <http://example.org/person/josef-slerka> .
+<http://example.org/person/jan-kucera> <http://example.org/p/knows> <http://example.org/person/hans-weigand> .
+<http://example.org/person/jan-kucera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/jan-kucera>  <http://example.org/p/member> <http://example.org/org/charlez-university> .
+  
+<http://example.org/person/fadi-maali> <http://example.org/p/name> "Fadi Maali" .
+<http://example.org/person/fadi-maali> <http://example.org/p/gender> "male" .
+<http://example.org/person/fadi-maali> <http://example.org/p/knows> <http://example.org/person/lukasz-porwol> .
+<http://example.org/person/fadi-maali> <http://example.org/p/knows> <http://example.org/person/richard-cyganiak> .
+<http://example.org/person/fadi-maali> <http://example.org/p/knows> <http://example.org/person/anna-dabrowska> .
+<http://example.org/person/fadi-maali> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/fadi-maali>  <http://example.org/p/member> <http://example.org/org/deri> .
+  
+<http://example.org/person/jindrich-mynarz> <http://example.org/p/name> "Jindrich Mynarz".
+<http://example.org/person/jindrich-mynarz> <http://example.org/p/gender> "male" .
+<http://example.org/person/jindrich-mynarz> <http://example.org/p/knows> <http://example.org/person/fadi-maali> .
+<http://example.org/person/jindrich-mynarz> <http://example.org/p/knows> <http://example.org/person/ana-osman> .
+<http://example.org/person/jindrich-mynarz> <http://example.org/p/knows> <http://example.org/person/hans-weigand> .
+<http://example.org/person/jindrich-mynarz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/jindrich-mynarz>  <http://example.org/p/member> <http://example.org/org/charlez-university> .
+  
+<http://example.org/person/ana-osman> <http://example.org/p/name> "Ana Osman" .
+<http://example.org/person/ana-osman> <http://example.org/p/gender> "female" .
+<http://example.org/person/ana-osman> <http://example.org/p/knows> <http://example.org/person/jan-kucera> .
+<http://example.org/person/ana-osman> <http://example.org/p/knows> <http://example.org/person/josef-slerka> .
+<http://example.org/person/ana-osman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/ana-osman>  <http://example.org/p/member> <http://example.org/org/charlez-university> .
+  
+<http://example.org/person/josef-petrak> <http://example.org/p/name> "Josef Petrak" .
+<http://example.org/person/josef-petrak> <http://example.org/p/gender> "male" .
+<http://example.org/person/josef-petrak> <http://example.org/p/knows> <http://example.org/person/jan-kucera> .
+<http://example.org/person/josef-petrak> <http://example.org/p/knows> <http://example.org/person/hans-weigand> .
+<http://example.org/person/josef-petrak> <http://example.org/p/knows> <http://example.org/person/jindrich-mynarz> .
+<http://example.org/person/josef-petrak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/josef-petrak>  <http://example.org/p/member> <http://example.org/org/charlez-university> .
+  
+<http://example.org/person/lukasz-porwol> <http://example.org/p/name> "Lukasz Porwol" .
+<http://example.org/person/lukasz-porwol> <http://example.org/p/gender> "male" .
+<http://example.org/person/lukasz-porwol> <http://example.org/p/knows> <http://example.org/person/maciej-dabrowski> .
+<http://example.org/person/lukasz-porwol> <http://example.org/p/knows> <http://example.org/person/benjamin-heitmann> .
+<http://example.org/person/lukasz-porwol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/lukasz-porwol>  <http://example.org/p/member> <http://example.org/org/deri> .
+  
+<http://example.org/person/josef-slerka> <http://example.org/p/name> "Josef Slerka" .
+<http://example.org/person/josef-slerka> <http://example.org/p/gender> "male" .
+<http://example.org/person/josef-slerka> <http://example.org/p/knows> <http://example.org/person/hans-weigand> .
+<http://example.org/person/josef-slerka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/josef-slerka>  <http://example.org/p/member> <http://example.org/org/charlez-university> .
+  
+<http://example.org/person/hans-weigand> <http://example.org/p/name> "Hans Weigand" .
+<http://example.org/person/hans-weigand> <http://example.org/p/gender> "male" .
+<http://example.org/person/hans-weigand> <http://example.org/p/knows> <http://example.org/person/jan-kucera> .
+<http://example.org/person/hans-weigand> <http://example.org/p/knows> <http://example.org/person/jindrich-mynarz> .
+<http://example.org/person/hans-weigand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/Person> .
+<http://example.org/person/hans-weigand> <http://example.org/p/member> <http://example.org/org/charlez-university> .
+
+<http://example.org/org/charlez-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/University> .
+<http://example.org/org/deri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/c/ResearchInstitute> .
