@@ -1,4 +1,4 @@
-This work is available under Creative Commons Attribution 3.0 http://creativecommons.org/licenses/by/3.0/ie/
+
 A set of examples about using SPARQL for performing simple analytics on top of RDF data. SPARQL queries and equivalen PIG Latin scripts are provided for the examples. Anlaytics tasks include:
 <ol>
 <li> Traditional BI queries: rollup and drilldown </li>
@@ -10,3 +10,6 @@ A set of examples about using SPARQL for performing simple analytics on top of R
   </ul>
 <li> Other: data profiling (this is based on the work on <a href="https://github.com/sindice/sparqled/tree/master/sparql-summary/src/main/java/org/sindice/summary"> Sindice Sparqled</a>)  </li>
 </ol>
+<p>
+This work is available under Creative Commons Attribution 3.0 http://creativecommons.org/licenses/by/3.0/ie/
+</p>
