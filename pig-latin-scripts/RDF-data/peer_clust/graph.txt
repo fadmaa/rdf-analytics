@@ -1,0 +1,15 @@
+A	p	B
+A	p	C
+A	p	D
+B	p	C
+B	p	D
+C	p	B
+C	p	D
+D	p	B
+D	p	E
+E	p	F
+E	p	G
+F	p	E
+F	p	G
+G	p	E
+G	p	F
