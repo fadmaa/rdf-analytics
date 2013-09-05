@@ -8,5 +8,5 @@ A set of examples about using SPARQL for performing simple analytics on top of R
     <li>peer-pressure clustering (this is based on <a href="http://yarcdata.com/blog/?author_name=steve">Steve  Reinhardt</a> blog <a href="http://yarcdata.com/blog/?p=318">posts</a> on <a href="http://yarcdata.com/blog/">YarcData Blog</a>) </li>
     <li>spreading activation</li>
   </ul>
-<li> Other: data profiling (this is based on the work on <a href="https://github.com/sindice/sparqled/tree/master/sparql-summary/src/main/java/org/sindice/summary" Sindice Sparqled</a>)  </li>
+<li> Other: data profiling (this is based on the work on <a href="https://github.com/sindice/sparqled/tree/master/sparql-summary/src/main/java/org/sindice/summary"> Sindice Sparqled</a>)  </li>
 </ol>
